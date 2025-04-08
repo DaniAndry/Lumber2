@@ -1,0 +1,181 @@
+report@config:load 27.85
+Authorized using stored user info.
+report@account:authorize 9.51
+stderr: "rm" �� ���� ����७��� ��� ���譥�
+��������, �ᯮ��塞�� �ணࠬ��� ��� ������ 䠩���.
+
+Exporting assets from Unity.........
+
+[ Stage1 ] Assets exported from Unity and staged for further processing
+report@unity:export 6107.07
+report@config:load 19.10
+Resources:
+{}
+report@assets:stage2 2640.16
+report@assets:stage3 139.85
+[ Stage2 ] Assets postprocessed and bundled successfully
+report@config:unity 0.12
+report@config:load 24.73
+report@config:unity 0.42
+report@code:compose 144.70
+Authorized using stored user info.
+report@account:authorize 3.93
+Версия MSBuild 17.14.0-preview-25127-07+c012996cf для .NET Framework
+
+Сборка начата 08.04.2025 14:31:13.
+
+
+
+Проект "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" в узле 1 (целевые объекты Rebuild).
+CoreClean:
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.AssemblyReference.cache" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.CoreCompileInputs.cache" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" удаляется.
+
+  Файл "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" удаляется.
+
+GenerateTargetFrameworkMonikerAttribute:
+Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+
+CoreCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\Roslyn\csc.exe /noconfig /nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_2022;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2022_3;UNITY_2022_3_58 /highentropyva+ /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll /reference:C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\CameraLogic\CameraFollow.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Constants.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Hero\HeroAnimator.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Hero\HeroMove.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Infrastructure\Game.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Infrastructure\GameBootstrapper.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Logic\AnimatorState.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Logic\AnimatorStateReporter.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Logic\IAnimationStateReader.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Services\Input\IInputService.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Services\Input\InputService.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Services\Input\MobileInputService.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\CodeBase\Services\Input\StandaloneInputService.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputKeyboard.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputMouse.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputMoveGesture.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputPinchGesture.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\A
+ssets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputRotateGesture.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputSwipeGesture.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputUI.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputUIArrows.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\Dpad.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\Joystick.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\SteeringWheel.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\AxisInputs\Touchpad.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\ButtonInputs\ButtonInputKeyboard.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\ButtonInputs\ButtonInputSwipeGesture.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\ButtonInputs\ButtonInputUI.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\BaseInput.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\ISimpleInputDraggable.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\ISimpleInputDraggableMultiTouch.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\NonDrawingGraphic.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\SelectivePointerInput.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\SimpleInputDragListener.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\SimpleInputMultiDragListener.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\SimpleInputUtils.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\SwipeGestureBase.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\Core\UnityInputProvider.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\KeyInputs\KeyInputKeyboard.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\KeyInputs\KeyInputSwipeGesture.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\KeyInputs\KeyInputUI.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\MouseButtonInputs\MouseButtonInputKeyboard.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\MouseButtonInputs\MouseButtonInputSwipeGesture.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\MouseButtonInputs\MouseButtonInputUI.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\SimpleInput.cs C:\Users\Andrey\Desktop\GIT\Lumber2\Lumber2\LunaTemp\stage3\processed-scripts\Assets\Plugins\SimpleInput\Scripts\SimpleInputHelper.cs Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+
+  CompilerServer: server - server processed compilation - Scripts
+
+_CopyFilesMarkedCopyLocal:
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
+
+  Создание "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date", так как было задано "AlwaysCreate".
+
+  Обращение к "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date".
+
+CopyFilesToOutputDirectory:
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.dll" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
+
+  Scripts -> C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll
+
+  Копирование файла из "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\obj\Debug\UnityScriptsCompiler.pdb" в "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
+
+BridgeNetCompilerTask:
+  Bridge started
+
+      To enable detailed logging, configure "logging" in bridge.json.
+      https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
+
+  Bridge done
+
+Сборка проекта "C:\Users\Andrey\Desktop\Luna\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" завершена (целевые объекты Rebuild).
+
+
+Сборка успешно завершена.
+
+    Предупреждений: 0
+
+    Ошибок: 0
+
+
+Прошло времени 00:00:08.80
+
+Source code compiled successfully!
+﻿
+[ error ] $﻿
+PHC: LP error code not found in JSON: 3015, JSON file might be outdated. Error message: Sequence contains no matching element
+
+Diagnostics gathered successfully
+report@code:build 15113.54
+report@diagnostics:verify 0.70
+report@diagnostics:upload 2071.11
+report@code:stage 5212.10
+[ Stage3 ] Code compiled and bundled successfully.
+report@code:bundle 22575.18
+report@package:stage 889.16
+[ Stage4 ] Target platform: develop
+[ Stage4 ] Package bundled successfully
+report@assets:stats 0.11
