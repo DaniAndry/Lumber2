@@ -1,20 +1,13 @@
-using System.Collections.Generic;
-using CodeBase.Logic.Points;
+using DG.Tweening;
 using UnityEngine;
 
 namespace Logic.Items
 {
     public class ItemMover : MonoBehaviour
     {
-        [SerializeField] private List<MoneyMovePoint> moneyMovePoints;
-        [SerializeField] private List<ItemMover> itemMovers;
-
-        private void OnTriggerEnter(Collider other)
+        public void Move(GameObject moveObject, Transform targetTransform)
         {
-            if (other.TryGetComponent<IPoint>(out IPoint movePoint))
-            {
-            
-            }
+            moveObject.transform.DOMove(targetTransform.position, 0.5f);
         }
     }
 }

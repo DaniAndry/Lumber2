@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Logic.Points;
 using UnityEngine;
 
 namespace Logic.Items
@@ -16,5 +17,7 @@ namespace Logic.Items
        {
            
        }
+
+       public ItemMover Mover { get; set; }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using CameraLogic;
-using CodeBase;
 using CodeBase.Services.Input;
 using Infrastructure;
 using UnityEngine;
@@ -43,5 +42,10 @@ namespace Forklift
         }
 
         private void CameraFollow() => _camera.GetComponent<CameraFollow>().Follow(gameObject);
+    }
+
+    public class ForcliftItemsMovePoints : MonoBehaviour
+    {
+        
     }
 }

@@ -1,11 +1,23 @@
-﻿namespace CodeBase.Logic.Points
+﻿using Logic.Items;
+using UnityEngine;
+
+namespace Logic.Points
 {
-    public class ItemMovePoint : IPoint
+    public class ItemMovePoint : MonoBehaviour, IPoint
     {
         public bool IsBusy { get; private set; }
+        public Item Item { get; set; }
+        public Transform Transform { get; private set; }
 
-        public void TakePoint()
+        private void Awake()
         {
+            Item = new Item();
+            Transform = GetComponent<Transform>();
+        }
+
+        public void TakePoint(GameObject gameObject)
+        {
+            Item.GameObject = gameObject;
             IsBusy = true;
         }
 
