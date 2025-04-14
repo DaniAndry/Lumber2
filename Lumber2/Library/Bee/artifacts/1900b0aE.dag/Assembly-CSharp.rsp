@@ -382,13 +382,16 @@
 "Assets/Scripts/Logic/Items/ItemMoverPlace.cs"
 "Assets/Scripts/Logic/Items/Items.cs"
 "Assets/Scripts/Logic/Items/ItemSpawner.cs"
+"Assets/Scripts/Logic/Items/MoneyMovePoints.cs"
 "Assets/Scripts/Logic/Items/MovePoints.cs"
 "Assets/Scripts/Logic/Place/ILoadable.cs"
 "Assets/Scripts/Logic/Place/IUnloadable.cs"
+"Assets/Scripts/Logic/Place/LoadPlace.cs"
 "Assets/Scripts/Logic/Place/MoneyLoadPlace.cs"
 "Assets/Scripts/Logic/Place/MoneyUnloadPlace.cs"
 "Assets/Scripts/Logic/Place/TreeLoadPlace.cs"
 "Assets/Scripts/Logic/Place/TreeUnloadPlace.cs"
+"Assets/Scripts/Logic/Place/UnloadPlace.cs"
 "Assets/Scripts/Logic/Points/IPoint.cs"
 "Assets/Scripts/Logic/Points/ItemMovePoint.cs"
 "Assets/Scripts/Logic/Points/MoneyMovePoint.cs"
@@ -396,6 +399,7 @@
 "Assets/Scripts/Services/Input/InputService.cs"
 "Assets/Scripts/Services/Input/MobileInputService.cs"
 "Assets/Scripts/Services/Input/StandaloneInputService.cs"
+"Assets/Scripts/TextureAnimator.cs"
 -langversion:9.0
 /deterministic
 /optimize+

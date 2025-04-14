@@ -1,19 +1,41 @@
 {
   "ignores": [
+    "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs",
+    "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs",
+    "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs",
+    "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs",
+    "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs",
     "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputUtils.cs"
   ],
   "groups": [
     [
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/CameraLogic/CameraFollow.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Hero/HeroMove.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Services/Input/IInputService.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Infrastructure/Game.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Infrastructure/GameBootstrapper.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Services/Input/StandaloneInputService.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Services/Input/InputService.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Services/Input/MobileInputService.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/SimpleInput.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputKeyboard.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/SimpleInput.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMouse.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/AxisInputs/AxisInputMoveGesture.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/Core/SimpleInputMultiDragListener.cs",
@@ -45,13 +67,49 @@
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputKeyboard.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/MouseButtonInputs/MouseButtonInputUI.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Plugins/SimpleInput/Scripts/SimpleInputHelper.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Constants.cs"
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Services/Input/InputService.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Services/Input/MobileInputService.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Infrastructure/Game.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Forklift/ForkliftMover.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Services/Input/IInputService.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Constants.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/CameraLogic/CameraFollow.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Infrastructure/GameBootstrapper.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Services/Input/StandaloneInputService.cs"
     ],
     [
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Hero/HeroAnimator.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Logic/IAnimationStateReader.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Logic/AnimatorStateReporter.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/CodeBase/Logic/AnimatorState.cs"
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Forklift/ForkliftMovePoints.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemMoverPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemMovePoints.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemSpawner.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/TreeUnloadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/UnloadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/MoneyUnloadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/IUnloadable.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/IPoint.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/MovePoints.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/ItemMovePoint.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/Item.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/IItems.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/Items.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemMover.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/LoadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/MoneyLoadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/TreeLoadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/ILoadable.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/MoneyMovePoint.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/IItem.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/AnimatorState.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/IAnimationStateReader.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/AnimatorStateReporter.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/ICoroutineRunner.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/TextureAnimator.cs"
     ],
     [
       "C:/Users/Andrey/Desktop/Luna/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"

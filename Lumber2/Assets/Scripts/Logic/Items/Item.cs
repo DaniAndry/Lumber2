@@ -8,7 +8,12 @@ namespace Logic.Items
         public GameObject GameObject;
         
         [SerializeField] private float _duration;
-    
+
+        private void Awake()
+        {
+            GameObject = this.gameObject;
+        }
+
         public virtual void Take(Transform position)
         {
         

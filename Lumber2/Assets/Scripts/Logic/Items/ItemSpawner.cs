@@ -8,7 +8,7 @@ namespace Logic.Items
     {
         [SerializeField] private GameObject _itemPrefab;
         [SerializeField] private Transform _spawnPoint;
-        [SerializeField] private ItemMovePoints _items;
+        [SerializeField] private MovePoints _items;
 
         private ItemMover _itemMover;
         private IPoint _point;
