@@ -1,4 +1,4 @@
-﻿using Logic.Items;
+using Logic.Items;
 using UnityEngine;
 
 namespace Logic.Points

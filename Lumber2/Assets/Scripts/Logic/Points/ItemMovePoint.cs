@@ -1,4 +1,4 @@
-﻿using Logic.Items;
+using Logic.Items;
 using UnityEngine;
 
 namespace Logic.Points
@@ -11,7 +11,11 @@ namespace Logic.Points
 
         private void Awake()
         {
-            Item = new Item();
+            // Создаем дочерний объект для Item
+            GameObject itemContainer = new GameObject("ItemContainer");
+            itemContainer.transform.parent = transform;
+            itemContainer.transform.localPosition = Vector3.zero;
+            Item = itemContainer.AddComponent<Item>();
             Transform = GetComponent<Transform>();
         }
 

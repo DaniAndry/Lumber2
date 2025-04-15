@@ -78,27 +78,37 @@
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Services/Input/StandaloneInputService.cs"
     ],
     [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Forklift/ForkliftMoneyHandler.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Forklift/ForkliftMovePoints.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemMoverPlace.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemMovePoints.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/UnloadPlace.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemSpawner.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/TreeUnloadPlace.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/UnloadPlace.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/MoneyUnloadPlace.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/IUnloadable.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/IPoint.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/MovePoints.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/ItemMovePoint.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/MoneyMovePoints.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/LoadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/MoneyLoadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/MoneyManager.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/MoneyUnloadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/UI/FillableBar3D.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/Money.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/Item.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/IItems.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/Items.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/ItemMover.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/LoadPlace.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/MoneyLoadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/IMover.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/Timber.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/TimberUnloadPlace.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/Tree.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/ItemMovePoint.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/MoneyMovePoint.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/IItem.cs",
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/UI/BalanceDisplay.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/TreeLoadPlace.cs",
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/ILoadable.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Points/MoneyMovePoint.cs",
-      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Items/IItem.cs"
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/Place/IUnloadable.cs"
     ],
     [
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/Logic/AnimatorState.cs",
@@ -110,6 +120,9 @@
     ],
     [
       "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/TextureAnimator.cs"
+    ],
+    [
+      "C:/Users/Andrey/Desktop/GIT/Lumber2/Lumber2/LunaTemp/stage3/processed-scripts/Assets/Scripts/UI/ArrowController.cs"
     ],
     [
       "C:/Users/Andrey/Desktop/Luna/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"

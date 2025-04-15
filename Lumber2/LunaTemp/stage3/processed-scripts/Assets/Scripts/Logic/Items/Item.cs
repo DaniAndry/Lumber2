@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 
 namespace Logic.Items
@@ -8,15 +8,11 @@ namespace Logic.Items
         public GameObject GameObject;
         
         [SerializeField] private float _duration;
-    
-        public virtual void Take(Transform position)
+
+        private void Awake()
         {
-        
+            GameObject = this.gameObject;
         }
 
-        public virtual void Drop(Transform position)
-        {
-        
-        }
     }
 }

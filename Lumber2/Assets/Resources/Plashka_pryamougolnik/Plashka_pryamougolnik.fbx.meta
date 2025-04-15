@@ -3,7 +3,17 @@ guid: ae6908d2173496e4cab19aec6b0629a0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Obvodka
+    second: {fileID: 2100000, guid: 3775c8f5b1c7c3748aa3ff5ef19fd62f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plashka
+    second: {fileID: 2100000, guid: 3c5154d115c49a84da330d3791538bb7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

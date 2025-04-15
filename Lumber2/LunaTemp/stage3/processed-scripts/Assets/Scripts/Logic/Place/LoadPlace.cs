@@ -8,7 +8,7 @@ namespace Logic.Place
 {
     public abstract class LoadPlace : MonoBehaviour, ILoadable
     {
-        [SerializeField] protected ItemMovePoints _items;
+        [SerializeField] protected MovePoints _items;
         [SerializeField] protected ForkliftMovePoints _targetItems;
 
         protected IPoint _targetPoint;
@@ -16,8 +16,8 @@ namespace Logic.Place
         protected ItemMover _itemMover;
         protected readonly float _moveTime = 0.2f;
 
-        private Coroutine _loadCoroutine;
-        private bool _isLoading = false;
+        protected Coroutine _loadCoroutine;
+        protected bool _isLoading = false;
 
         private void OnTriggerStay(Collider other)
         {
@@ -53,34 +53,54 @@ namespace Logic.Place
         {
             for (int i = 0; i < _items.GetCount(); i++)
             {
-                yield return new WaitForSeconds(_moveTime);
-
-                // Проверяем, что погрузчик все еще доступен
+                yield return new WaitForSeconds(0.1f);
+                
                 if (_targetItems == null)
                 {
                     _isLoading = false;
                     yield break;
                 }
 
-                if (_items.ReplaceItemOnPoint() != null)
+                // Обработка для MoneyMovePoints
+                if (_items is MoneyMovePoints)
+                {
+                    // Пытаемся найти денежный объект на исходной точке
+                    _point = _items.ReplaceItemOnPoint();
+                    _targetPoint = _targetItems.TryToMove();
+                    
+                    // Если нашли и исходную точку, и целевую
+                    if (_point != null && _targetPoint != null)
+                    {
+                        GameObject movingObject = _point.Item.GameObject;
+                        Transform targetTransform = _targetPoint.Transform;
+                        
+                        // Освобождаем исходную точку
+                        _point.ReleasePoint();
+                        movingObject.transform.parent = targetTransform;
+                        
+                        // Перемещаем объект
+                        _itemMover.Move(movingObject, targetTransform);
+                        
+                        // Занимаем целевую точку
+                        _targetPoint.TakePoint(movingObject);
+                    }
+                }
+                // Стандартная обработка для физических объектов (дерево)
+                else if (_items.ReplaceItemOnPoint() != null)
                 {
                     _point = _items.ReplaceItemOnPoint();
                     _targetPoint = _targetItems.TryToMove();
 
                     if (_targetPoint != null)
                     {
-                        // Сохраняем объект и целевую точку для последующего использования
                         GameObject movingObject = _point.Item.GameObject;
                         Transform targetTransform = _targetPoint.Transform;
                         
-                        // Сначала освобождаем точку и устанавливаем родителя
                         _point.ReleasePoint();
                         movingObject.transform.parent = targetTransform;
                         
-                        // Запускаем анимированное перемещение
                         _itemMover.Move(movingObject, targetTransform);
                         
-                        // Помечаем точку как занятую
                         _targetPoint.TakePoint(movingObject);
                     }
                 }

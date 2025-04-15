@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 
 namespace Logic.Items
@@ -14,14 +14,5 @@ namespace Logic.Items
             GameObject = this.gameObject;
         }
 
-        public virtual void Take(Transform position)
-        {
-        
-        }
-
-        public virtual void Drop(Transform position)
-        {
-        
-        }
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Logic.Items
 {
-    public class ItemMover : MonoBehaviour
+    public class ItemMover : MonoBehaviour, IMover
     {
         public void Move(GameObject moveObject, Transform targetTransform)
         {
@@ -13,11 +13,11 @@ namespace Logic.Items
         
         private IEnumerator MoveAndFollow(GameObject moveObject, Transform targetTransform)
         {
-            Tween moveTween = moveObject.transform.DOMove(targetTransform.position, 0.3f);
+            Tween moveTween = moveObject.transform.DOMove(targetTransform.position, 0.2f);
             
             yield return moveTween.WaitForCompletion();
 
-            float followDuration = 0.5f;
+            float followDuration = 0.1f;
             float elapsed = 0f;
             
             while (elapsed < followDuration)

@@ -53,7 +53,7 @@ namespace Logic.Place
         {
             for (int i = 0; i < _items.GetCount(); i++)
             {
-                yield return new WaitForSeconds(_moveTime);
+                yield return new WaitForSeconds(0.1f);
                 
                 if (_targetItems == null)
                 {

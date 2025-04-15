@@ -7,6 +7,14 @@ using UnityEngine.Serialization;
 
 namespace Logic.Place
 {
+    
+    public enum ItemType
+    {
+        Tree,
+        Money,
+        Timber
+    }
+
     public abstract class UnloadPlace : MonoBehaviour, IUnloadable
     {
         [SerializeField] protected ItemMovePoints _unloadPoints;
@@ -19,7 +27,7 @@ namespace Logic.Place
         protected readonly float _moveTime = 0.2f;
 
         private Coroutine _unloadCoroutine;
-        private bool _isUnloading = false;
+        protected bool _isUnloading = false;
 
         private void OnTriggerStay(Collider other)
         {
@@ -51,8 +59,14 @@ namespace Logic.Place
             }
         }
 
+        protected abstract bool IsValidItemType(GameObject itemObject);
+
+        protected abstract ItemType GetAcceptedItemType();
+
         protected virtual IEnumerator UnloadItems()
         {
+            int unloadedCount = 0;
+
             for (int i = 0; i < _forkliftPoints.GetCount(); i++)
             {
                 yield return new WaitForSeconds(_moveTime);
@@ -66,22 +80,33 @@ namespace Logic.Place
                 if (_forkliftPoints.ReplaceItemOnPoint() != null)
                 {
                     _point = _forkliftPoints.ReplaceItemOnPoint();
-                    _targetPoint = _unloadPoints.TryToMove();
+                    GameObject movingObject = _point.Item.GameObject;
 
-                    if (_targetPoint != null)
+                    if (IsValidItemType(movingObject))
                     {
-                        GameObject movingObject = _point.Item.GameObject;
-                        Transform targetTransform = _targetPoint.Transform;
+                        _targetPoint = _unloadPoints.TryToMove();
 
-                        _point.ReleasePoint();
-                        movingObject.transform.parent = targetTransform;
+                        if (_targetPoint != null)
+                        {
+                            Transform targetTransform = _targetPoint.Transform;
 
-                        _itemMover.Move(movingObject, targetTransform);
+                            _point.ReleasePoint();
+                            movingObject.transform.parent = targetTransform;
 
-                        _targetPoint.TakePoint(movingObject);
+                            _itemMover.Move(movingObject, targetTransform);
+
+                            _targetPoint.TakePoint(movingObject);
+                            unloadedCount++;
+                        }
+                    }
+                    else
+                    {
+                        
                     }
                 }
             }
+
+            
 
             _isUnloading = false;
             StartCoroutine(MoveToUse());
@@ -93,7 +118,14 @@ namespace Logic.Place
             {
                 yield return new WaitForSeconds(0.1f);
                 _point = _unloadPoints.ReplaceItemOnPoint();
-                GameObject movingObject = _unloadPoints.ReplaceItemOnPoint().Item.GameObject;
+
+                if (_point == null)
+                {
+                    
+                    yield break;
+                }
+
+                GameObject movingObject = _point.Item.GameObject;
                 _point.ReleasePoint();
 
                 movingObject.transform.parent = _targetUsePoint;
@@ -103,7 +135,16 @@ namespace Logic.Place
 
         private void CompleteMove(GameObject movingObject)
         {
-                Destroy(movingObject);
+            Destroy(movingObject);
+        }
+
+        
+        private void OnDestroy()
+        {
+            if (_unloadCoroutine != null)
+            {
+                StopCoroutine(_unloadCoroutine);
+            }
         }
     }
 }
